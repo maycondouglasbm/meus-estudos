@@ -1,6 +1,3 @@
-
-
-
 #53º exercício
 
 fras = str(input('digite uma frase: ')).strip().upper()
