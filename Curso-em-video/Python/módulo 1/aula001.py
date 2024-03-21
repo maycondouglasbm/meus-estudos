@@ -51,6 +51,6 @@ print('É minusculo?', num.islower())
 print('É maiusculo?', num.isupper())
 print('Só tem espaços?', num.isspace())
 print('É capitalizado?', num.istitle())
-print('A ', num.isidentifier())
-print('A ', num.isprintable())
+print('', num.isidentifier())
+print('', num.isprintable())
 

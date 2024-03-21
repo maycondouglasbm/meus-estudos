@@ -7,7 +7,7 @@ print('O último nome é:{}.'.format(n[len(n)-1]))
 
 #28º exercício
 
-from random import randint
+from random import randint 
 from time import sleep
 computador = randint(0,5)
 print('-=-' * 20)
@@ -46,7 +46,7 @@ else:
 distância = float(input('Qual a distância em km?'))
 preço = distância * 0.50
 if distância <= 200:
-    print('O preço da passagem será {]' .format(preço))
+    print('O preço da passagem será {}' .format(preço))
 else:
     preço = distância * 0.45
     print('O preço da passagem será {}'.format(preço))
