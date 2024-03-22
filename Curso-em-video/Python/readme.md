@@ -281,8 +281,30 @@ pega
 
 ```
 
-**Módulo 3 em atualização...**
+# Módulo 3 
 
+## Variéveis compostas
+
+- Tuplas
+Estruturas de dados que armazenam um connjunto de valores ordenados e imutáveis, semelhantes a listas, mas não podem ser modificados depois de criados.
+
+```
+tupla = (1,2,3)
+```
+
+```
+tupla = ((1,2), (3,4), (5,6))
+```
+
+- Listas 
+Tipo de estrutura de dados que permite armazenar uma coleção de elementos em uma única váriavel. São mutáveis.
+
+```
+lista = [1,2,3]
+```
+
+
+## Bibliotecas e módulos 
 
 randint(a, b): Gera um número inteiro aleatório no intervalo [a, b], incluindo a e b.
 
