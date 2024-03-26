@@ -6,7 +6,7 @@ print('-----------')
 print('Olá! seja bem vindo!')
 print('Hello! Welcome!')
 
-#3º exercício
+#2º exercício
 
 nome = input('Qual o seu nome?')
 print('Prazer em te conhecer,', nome)
@@ -24,7 +24,7 @@ print('Que legal!')
 profissão = input('Com o que você trabalha atualmente?')
 print('Que bacana, adorei isso!')
 
-#4º exercício
+#3º exercício
 
 num = int(input('Digite um número:'))
 num2 = int(input('Digite outro:'))
@@ -38,7 +38,7 @@ t2 = int(input('Digite outro:'))
 T = t1 - t2
 print('A diferença/subtração entre {} e {} é igual a {}'.format(t1, t2, T))
 
-#5º exercício
+#4º exercício
 
 num = (input('Digite algo:'))
 print('O tipo primitivo dele é', type(num))

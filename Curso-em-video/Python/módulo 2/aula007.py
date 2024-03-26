@@ -45,7 +45,7 @@ print('O maior peso que foi lido foi {}'.format(maior))
 print('o menor peso que foi lido foi {}'.format(menor))
 
 
-#56º exercício
+#57º exercício
 
 somaidade = 0
 mediaidade = 0
@@ -71,19 +71,30 @@ print('A media de idade do grupo é de {} anos'.format(mediaidade))
 print('O nome do homem mais velho é {} e se chama'.format(maioridadehomem, nomevelho))
 print('são {} mulheres com mais de 20 anos'.format(totmulher20,))
 
-#57º exercício
+#58º exercício
 
-maior = 0
-menor = 0
-for i in range(1,6):
-    peso = float(input('Qual o peso da {}ª pessoa?'.format(i)))
-    if i == 1:
-        maior = i
-        menor = i
-    else:
-        if peso > maior:
-            maior = peso
-        if peso < menor:
-            menor = peso
-print('O maior peso que foi lido foi {}'.format(maior))
-print('o menor peso que foi lido foi {}'.format(menor))
+#59º exercício
+
+#60º exercício
+
+#61º exercício
+
+#62º exercício
+
+#63º exercício
+
+#64º exercício
+
+#65º exercício
+
+#66º exercício
+
+#67º exercício
+
+#68º exercício
+
+#69º exercício
+
+#70º exercício
+
+#71º exercício

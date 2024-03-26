@@ -1,11 +1,11 @@
-#6º exercício
+#5º exercício
 
 num = int(input('Digite um número para ver seu sucessor e antecessor:'))
 s = num + 1
 a = num - 1
 print('O sucessor de {} é {} e o antecessor de {} é {}.' .format(num, s, num, a))
 
-#7º exercício
+#6º exercício
 
 Y = int(input('Digite um número para ver seu dobro, triplo e raiz:'))
 D = Y * 2
@@ -13,7 +13,7 @@ T = Y * 3
 R = Y ** (1/2)
 print('O dobro de {} é igual a {:.2f},\nO triplo de {} é igual a {:.2f}, \nE a raiz quadrada de {} é igual a {:.0f}.'.format(Y, D, Y, T, Y, R))
 
-#8º exercício
+#7º exercício
 
 nota1 = int(input('Primeira nota:'))
 nota2 = int(input('Segunda nota:'))
@@ -63,6 +63,9 @@ if m1 >= 28:
 else:
     print('Reprovado...')
 
+
+#8º exercício
+    
 medida = float(input('Qual a medida em metros?'))
 c = medida * 100
 m = medida * 1000
@@ -73,8 +76,6 @@ print(' A medida {} em centimetros é {:.0f}cm e em milimetros é {:.0f}mm'.form
 num = int (input("Digite um número para ver a tabuada:"))
 for i in range(0, 11):
     print(num, "x", i, "=", num * i)
-
-# aaaaa
 
 print('------------')
 
