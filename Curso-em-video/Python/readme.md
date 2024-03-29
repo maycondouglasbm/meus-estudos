@@ -303,6 +303,16 @@ Tipo de estrutura de dados que permite armazenar uma coleção de elementos em u
 lista = [1,2,3]
 ```
 
+- Dicionário 
+Estrutura de dados que armazena pares de chave-valor. Cada chave em um dicionário é única e é usada para acessar o valor correspondente associado a ela. Os dicionários em Python são mutáveis, o que significa que você pode adicionar, modificar ou excluir elementos conforme necessário.
+
+```
+meu_dicionario = {"chave1": "valor1", "chave2": "valor2", "chave3": "valor3"}
+meu_dicionario_vazio = {}
+meu_dicionario_vazio["nova_chave"] = "novo_valor"
+print(meu_dicionario["chave1"])  # Isso imprimirá: valor1
+```
+
 
 ## Bibliotecas e módulos 
 

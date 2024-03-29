@@ -68,3 +68,4 @@ print(f'A lista de impares é {impares}')
 
 #82º exercício
 
+#83º exercício
