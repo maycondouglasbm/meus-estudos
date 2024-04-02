@@ -138,14 +138,3 @@ dias = int(input('Qual a quantidade de dias que foi alugado?'))
 preço = (dias * 60) + (km * 0.15)
 print('O total que ele terá a pagar po ter pecorrido {}km em {} dias será de R${:.2f}'.format(km, dias, preço))
 
-#16º exercício
-
-from math import trunc
-num = float(input('Digite um número:'))
-print('O número digitado foi {} e sua parte inteira é {}'.format(num, trunc(num)))
-
-# outra forma sem importar o módulo
-
-num = float(input('Digite um número:'))
-print('O número digitado foi {} e sua parte inteira é {}'.format(num, int(num)))
-

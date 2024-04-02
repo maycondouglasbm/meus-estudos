@@ -35,3 +35,9 @@ print('A letra (a) aparece {} vezes nesta frase'.format(frase.count('A')))
 print('A posição que aparece o (a) pela primeira vez é: {}'.format(frase.find('A')+1))
 print('A posição que a letra (A) aparece pela ultima vez é: {}'.format(frase.rfind('A')+1))
 
+#27º exercício
+
+nome = str(input("Digite seu nome completo:")).strip()
+n = nome.split()
+print('O primeiro nome é:{}'.format(n[0]))
+print('O último nome é:{}.'.format(n[len(n)-1]))
